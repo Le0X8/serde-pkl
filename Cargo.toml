@@ -2,8 +2,12 @@
 name = "serde-pkl"
 version = "0.0.0"
 description = "The Apple pkl format for Serde"
-author = "Leonard Lesinski"
+authors = ["Leonard Lesinski"]
 license = "GPL-3.0"
 edition = "2021"
 
 [dependencies]
+serde = "1.0.210"
+
+[dev-dependencies]
+serde_derive = "1.0.210"
